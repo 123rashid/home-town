@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'monserat';
+    src: url("../font/Montserrat-VariableFont_wght.ttf");
+}
+#hero{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/hero1.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#banner{
+    background: #fff;
+    width: 400px;
+    padding: 20px;
+    border-radius: 15px;
+    opacity: 83%;
+    
+}
+#city-name{
+    color: #373131;
+    font-family: 'monserat';
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#city-info{
+    color: #373131;
+    font-family: 'monserat';
+    font-size: 20px;
+    margin-top: 0px;
+}
+.container{
+    width: 100%;
+    height: 600px;
+    background: #f8e3ca;
+    padding-top: 20px;
+    text-align: center;
+}
+.container h1{
+    font-size: 25px;
+    font-family: 'monserat';
+    font-weight: bold;
+}
+.wraper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.visit{
+    width: 350px;
+    text-align: center;
+    color: #1D1C1C;
+ 
+}
+.visit img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    
+}
+.visit h2{
+    font-size:25px;
+    font-weight: bold;
+    font-family: 'monserat';
+}
+.visit h4{
+    font-size: 16px;
+    font-weight: 200;
+    width: 300px;
+    font-family: 'monserat';
+}
+.card{
+    width: 450px;
+   background-color: #9A6D39;
+   margin: 10px auto 0px auto;
+   display: flex;
+   padding: 10px;
+   justify-content: space-between;
+   border-radius: 6px;
+   border-bottom: 8px solid #513009;
+}
+.card img{
+    width: 200px;
+    
+}
+.content{
+    width: 200px;
+    font-family: 'monserat';
+    margin-top: 40px;
+    color: #f8e3ca;
+}
+.content h1{
+    font-size: 24px;
+}
+.content h2{
+    font-size: 20px;
+}
+.info{
+    font-size: 10px;
+}
